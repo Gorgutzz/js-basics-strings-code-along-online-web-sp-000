@@ -8,5 +8,5 @@ const excitedWelcomeMessage = welcomeMessage.toUpperCase();
 const shortGreeting = 'Welcome, ';
 
 shortGreeting
-  contains "Welcome, "
-    AssertionError: expected '' to contain 'Welcome, '
+  contains the first initial of the name stored in the 'currentUser' variable
+    AssertionError: expected 'Welcome, ' to contain 'G'
