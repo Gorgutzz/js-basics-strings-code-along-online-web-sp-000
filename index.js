@@ -9,4 +9,4 @@ const shortGreeting = ... ;
 
 shortGreeting
   contains "Welcome, "
-    ReferenceError: shortGreeting is not defined
+    AssertionError: expected '' to contain 'Welcome, '
